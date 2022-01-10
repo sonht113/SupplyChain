@@ -234,7 +234,7 @@ class App extends Component {
             </div>
             <div id="itemName" className="form-control">
               <label className="title" htmlFor="itemName">
-                Item Identifier:
+                Name Item:
               </label>
               <input
                 type="text"
