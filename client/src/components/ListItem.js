@@ -9,8 +9,8 @@ export default function ListItem(props){
           <table id = "table" className='table'>
             <thead>
              <tr className='text-center'>
-              <th>#</th>
-              <th>Name</th>
+              <th>STT</th>
+              <th>Name Item</th>
               <th>Price</th>
               <th>Address Item</th>
               <th>Owner Address</th>

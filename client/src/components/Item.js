@@ -4,7 +4,7 @@ import React from "react";
 export default function ListItem(props){
     const [step] = useState(props.item.step);
 
-    function convertStep(step){
+    function checkStep(step){
         let str = '';
         switch (step){
             case '1': 
@@ -28,7 +28,7 @@ export default function ListItem(props){
             <td>{props.item.addressItem}</td>
             <td>{props.item.ownerAddress}</td>
             <td className='text-primary'>{
-                convertStep(step)
+                checkStep(step)
             }</td>
             <td>
                 {
